@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+  @apply bg-[#262A10] py-1 px-4 rounded-md text-white hover:bg-black transition ease-out duration-300;
+}
